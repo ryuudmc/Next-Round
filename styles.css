@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  background: radial-gradient(circle at top, #1a1a1a, #000000);
+  color: #ffffff;
+  min-height: 100vh;
+}
+
+/* HEADER */
+.header {
+  height: 60px;
+  background: linear-gradient(to right, #111, #1c1c1c);
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.menu {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.logo-top {
+  margin-left: auto;
+}
+
+.logo-top img {
+  height: 80px;
+}
+
+/* HERO */
+.hero {
+  display: flex;
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+.hero-content {
+  max-width: 500px;
+  text-align: center;
+}
+
+.logo-copa {
+  width: 160px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  color: #7c3aed;
+  font-size: 28px;
+  font-weight: 800;
+  margin-bottom: 16px;
+}
+
+.description {
+  font-size: 15px;
+  line-height: 1.6;
+  color: #d0d0d0;
+  margin-bottom: 30px;
+}
+
+/* CARD */
+.card {
+  background: linear-gradient(180deg, #111827, #0b0f1a);
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 0 20px rgba(139, 92, 246, 0.25);
+}
+
+.card h2 {
+  color: #7c3aed;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 14px;
+  color: #bfbfbf;
+  margin-bottom: 20px;
+}
+
+/* BUTTONS */
+.btn {
+  display: block;
+  text-decoration: none;
+  padding: 14px;
+  border-radius: 10px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.btn.primary {
+  background: #7c3aed;
+  color: #000;
+}
+
+.btn.secondary {
+  border: 1px solid #7c3aed;
+  color: ;
+  background: transparent;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 0 20px rgba(139, 92, 246, 0.25);
+}
+
+.btn.whatsapp {
+  background: #25D366;
+  color: #000;
+}
+
+.btn.whatsapp:hover {
+  box-shadow: 0 6px 15px rgba(37, 211, 102, 0.4);
+}
+
+.footer {
+  text-align: center;
+  font-size: 13px;
+  color: #888;
+  padding: 30px 10px 20px;
+}
